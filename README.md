@@ -29,11 +29,17 @@ npm install
 ```bash
 npm build:mainnet
 ```
+```or try
+node build/build.js --mainnet
+```
 
 #### 3.2 Devnet
 
 ```bash
 npm build:devnet
+```
+```or try
+node build/build.js --devnet
 ```
 
 #### 3.3 Custom
@@ -59,13 +65,19 @@ If you wish to remove the `/#/` from your URLs you can follow those steps https:
 ### 4.1 Build
 
 ```bash
-yarn build:mainnet --history
+npm build:mainnet --history
+```
+```or try
+node build/build.js --mainnet --history
 ```
 
 ### 4.2 Development
 
 ```bash
-yarn dev --env.routerMode=history
+npm dev --env.routerMode=history
+```
+```or try
+node build/build.js --devnet --history
 ```
 
 > Keep in mind that this requires you to run your own server and a running instance of nginx.
@@ -75,31 +87,31 @@ yarn dev --env.routerMode=history
 #### Mainnet
 
 ```bash
-yarn dev # or yarn dev:mainnet
+npm dev # or yarn dev:mainnet
 ```
 
 #### Devnet
 
 ```bash
-yarn dev:devnet
+npm dev:devnet
 ```
 
 #### Custom
 
 ```bash
-yarn dev --env.network=custom
+npm dev --env.network=custom
 ```
 
 #### Change Router Mode
 
 ```bash
-yarn dev --env.routerMode=history
+npm dev --env.routerMode=history
 ```
 
 ## 6. Testing
 
 ``` bash
-$ yarn test
+$ npm test
 ```
 
 ## 7. Security
