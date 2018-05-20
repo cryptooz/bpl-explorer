@@ -2,8 +2,6 @@
     <img src="/BPLexplorer.png" />
 </p>
 
-[![Build Status](https://img.shields.io/travis/ArkEcosystem/ark-explorer/master.svg?style=flat)](https://travis-ci.org/ArkEcosystem/ark-explorer)
-
 # BPL Explorer 3.0
 
 > Designed and developed from the ground-up, using lean & fast developmental frameworks (Tailwind CSS & Vue.JS).
